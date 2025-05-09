@@ -221,7 +221,7 @@ export const supportWalletObj = {
     isSupportBrowserExtension: false,
     isSupportMobileApp: true,
   },
-  [SupportWallet.FearlessNative]: {
+  [SupportWallet.FearlessWalletNative]: {
     img: require('/src/assets/img/logo-fearless.png'),
     name: 'Fearless Wallet (Native)',
     source: SupportWallet.FearlessWalletNative,
@@ -353,10 +353,10 @@ export const supportEvmWalletObj = {
     isSupportMobileApp: false,
     ethExtension: 'okxwallet',
   },
-  [SupportWallet.FearlessWalletEvm]: {
+  [SupportWallet.FearlessWalletEVM]: {
     img: require('/src/assets/img/logo-fearless.png'),
     name: 'Fearless Wallet (EVM)',
-    source: SupportWallet.FearlesswalletEvm,
+    source: SupportWallet.FearlessWalletEVM,
     walletUrl: 'https://fearlesswallet.io/',
     guideUrl: 'https://wiki.fearlesswallet.io/',
     isSupportBrowserExtension: true,

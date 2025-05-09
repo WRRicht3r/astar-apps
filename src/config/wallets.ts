@@ -31,8 +31,8 @@ export enum SupportWallet {
   Dcent = 'DcentWallet',
   DcentEvm = 'DcentWalletEvm',
   Okx = 'okxwallet',
-  FearlessWalletNative = 'fearlesswallet' ,
-  FearlessWalletEVM = 'fearlesswalletEvm' ,
+  FearlessWalletNative = 'fearlesswallet',
+  FearlessWalletEVM = 'fearlesswalletEvm',
 }
 
 export enum SupportMultisig {
@@ -69,7 +69,7 @@ export const WalletModalOption = {
   DcentEvm: SupportWallet.DcentEvm,
   Okx: SupportWallet.Okx,
   FearlessWalletNative: SupportWallet.FearlessWalletNative,
-  FearlessWalletEvm: SupportWallet.FearlessWalletEvm,
+  FearlessWalletEVM: SupportWallet.FearlessWalletEVM,
 };
 
 export const SubstrateWallets = [
@@ -224,7 +224,7 @@ export const supportWalletObj = {
   [SupportWallet.FearlessNative]: {
     img: require('/src/assets/img/logo-fearless.png'),
     name: 'Fearless Wallet (Native)',
-    source: SupportWallet.FearlesswalletNative,
+    source: SupportWallet.FearlessWalletNative,
     walletUrl: 'https://fearlesswallet.io/',
     guideUrl: 'https://wiki.fearlesswallet.io/',
     isSupportBrowserExtension: true,
@@ -353,7 +353,7 @@ export const supportEvmWalletObj = {
     isSupportMobileApp: false,
     ethExtension: 'okxwallet',
   },
-  [SupportWallet.FearlesswalletEvm]: {
+  [SupportWallet.FearlessWalletEvm]: {
     img: require('/src/assets/img/logo-fearless.png'),
     name: 'Fearless Wallet (EVM)',
     source: SupportWallet.FearlesswalletEvm,
